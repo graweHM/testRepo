@@ -13,7 +13,7 @@ They each store elements which have a priority(int) and a atom(string).
 The queues are sorted by priority with `priority = 1` being the highest.
 
 #Implemented Methods
-For detailed informations there is an an documentation on the [Jenkins Page](https://terraform.cs.hm.edu/jenkins/view/algdat%20PQueues/job/grp08-queues/) .
+For detailed informations there is an an documentation on the [Jenkins Page](https://terraform.cs.hm.edu/jenkins/view/algdat%20PQueues/job/grp08-queues/).
 
 Each Queue implemets the following functions:
 <dl>
@@ -34,3 +34,8 @@ Each Queue implemets the following functions:
 </dl>
 
 #How to
+To create a queue type the following:
+`MutablePriorityQueue name = MutablePriorityQueue(firstElement)`
+or
+`ImmutablePriorityQueue name = ImmutablePriorityQueue(firstElement)`
+Replace name with your desired name and firstElement with the first element the queue should have. If you want to create an empty queue just replace firstElement with nullptr.
