@@ -29,7 +29,7 @@ Each Queue implemets the following functions:
   <dt>deleteElem()</dt>
   <dd>Deletes an element from the queue.</dd>
   
-  <dt>merge</dt>
+  <dt>merge()</dt>
   <dd>Merges two Queues to one. The Queues can both be from different types.</dd>
 </dl>
 
@@ -43,3 +43,11 @@ or
 `ImmutablePriorityQueue name = ImmutablePriorityQueue(firstElement);`
 
 Replace `name` with your desired name and `firstElement` with the first element the queue should have. If you want to create an empty queue just replace `firstElement` with `nullptr`.
+
+After that the queue can be manipulated with implemeted methods.
+
+But be careful when working with ImmutablePriorityQueues, because each time a method is called a new queue is generated and returned.
+
+The old ImmutablePriorityQueue wont change.
+
+**Created by: Nikita Hans and Jonas Grawe.**
