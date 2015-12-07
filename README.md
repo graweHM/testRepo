@@ -42,4 +42,4 @@ or
 
 `ImmutablePriorityQueue name = ImmutablePriorityQueue(firstElement)`
 
-Replace name with your desired name and firstElement with the first element the queue should have. If you want to create an empty queue just replace firstElement with nullptr.
+Replace name with your desired name and `firstElement` with the first element the queue should have. If you want to create an empty queue just replace `firstElement` with `nullptr`.
